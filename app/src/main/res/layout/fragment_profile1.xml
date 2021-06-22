@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileFragment"
+    android:background="#D8D0B7">
+
+    <!-- TODO: Update blank fragment layout -->
+<TextView
+    android:id="@+id/yogya"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Yogyakarta,"
+    android:textStyle="bold"
+    android:fontFamily="times"
+    android:textSize="60dp"/>
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Berikut ini dalil-dalil yang menunjukkan wajibnya menunaikan sholat lima waktu tepat pada waktunya"
+        android:layout_below="@id/yogya"
+        android:textSize="18dp"/>
+    <ImageView
+        android:id="@+id/dalil1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/dalil1"
+        android:layout_below="@id/tv1"/>
+    <ImageView
+        android:id="@+id/dalil2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/dalil2"
+        android:layout_below="@id/dalil1"/>
+    <ImageView
+        android:id="@+id/dalil3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/dalil3"
+        android:layout_below="@id/dalil2"/>
+    <ImageView
+        android:id="@+id/dalil4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/dalil4"
+        android:layout_below="@id/dalil3"/>
+</RelativeLayout>
